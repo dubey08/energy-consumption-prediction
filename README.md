@@ -55,21 +55,20 @@ This project aims to predict future energy consumption based on historical data 
 - Scikit-learn
 - Jupyter
 
-Usage
-Preprocess the data:
-
+## Usage
+## Preprocess the data:
 python src/data_preprocessing.py
-Train the models:
+## Train the models:
 python src/model_training.py --model lstm
 python src/model_training.py --model rnn
-Make predictions:
+## Make predictions:
 python src/prediction.py --model lstm
 python src/prediction.py --model rnn
-Dataset
+## Dataset
 The dataset used for this project should be placed in the data/raw/ directory. The data should be a CSV file containing historical energy consumption records.
 
-Model Training
+## Model Training
 The models are defined in the models/ directory. The training scripts can be found in src/model_training.py. You can specify which model to train (LSTM or RNN) by passing the --model argument.
 
-Results
+## Results
 Model evaluation results and plots are saved in the results/ directory. This includes performance metrics and visualizations of the predictions compared to the actual energy consumption.
