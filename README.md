@@ -56,12 +56,12 @@ This project aims to predict future energy consumption based on historical data 
 - Jupyter
 
 ## Usage
-### Preprocess the data:
+#### Preprocess the data:
 python src/data_preprocessing.py
-### Train the models:
+#### Train the models:
 python src/model_training.py --model lstm
 python src/model_training.py --model rnn
-### Make predictions:
+#### Make predictions:
 python src/prediction.py --model lstm
 python src/prediction.py --model rnn
 ## Dataset
